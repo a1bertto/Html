@@ -16,3 +16,19 @@ copyOfMyObject = myObject;
 copyOfMyObject.a=12;
 console.log(myObject);
 console.log(copyOfMyObject);
+
+//for loop
+var iterateArray = (arr)=> {
+     for (i=0; i<arr.length;i++){
+          console.log(i);
+     }
+}
+
+// for each 
+array.forEach(function (element) {
+
+     element = element * 100;
+ 
+     console.log(`element -  ${element}`);
+ 
+   });

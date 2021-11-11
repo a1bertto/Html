@@ -117,3 +117,48 @@ console.log(" x- " + result);
 
 // way 3 - ES6 style - anonymous functiuon// arrow function -> make easier to read, concise// var y = (param1, param2...) => {  function body  }// arrow functions - you can skip { block }..if there is only 1 statementvar y = (num1, num2) => {  console.log("within arrow function");  return num1 * num2;};console.log("sum of two numbers - " + y(200, 400));console.log("sum of two numbers - " + y(20.89, 40.56));console.log("sum of two numbers - " + y("hello ", "world"));console.log("sum of two numbers - " + y("hello ", 100)); // str + number = strvar z = (num1, num2) => {  return num1 + num2;};console.log(z(100, 200));var z1 = (num1, num2) => num1 + num2;console.log(z1(100, 200));
 
+//string concat
+function createStringObject() {
+
+  // string objects
+
+  let string1 = "A string primitive";
+
+  const string2 = "Also a string primitive";
+
+  string1 = "hello";
+
+  //string2 = "world";
+
+  console.log(`string1 - ${string1} and string 2- ${string2}`);
+
+  console.log(string1.concat(" : ", string2));
+
+}
+
+
+
+createStringObject();
+
+// string1 object declared with let - is available only within the function
+
+//console.log(`string1 - ${string1} and string 2- ${string2}`);
+
+function upperCaseString(str) {
+
+  console.log(`str - ${str}`);
+
+  // creates a new object pointed by str
+
+  str = str.toUpperCase();
+
+  console.log(`str - ${str} `);
+
+}
+
+
+
+upperCaseString("hello");
+
+//button display
+<button onclick="todayDate()">Display Date</button>
