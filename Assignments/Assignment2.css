@@ -1,0 +1,35 @@
+#top-section-main{
+     margin-top:100;
+     background-image:url(../Images/Phonify-Spotify-concept-phone-1.jpg);
+     height: 550px;
+     
+}
+#top-section-content{
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+     
+}
+#top-section-content h1{
+     
+     font-size: 4em;
+     color: goldenrod;
+     font-weight: 300;
+     text-align: center; 
+     padding-top: 160px;  
+}
+#top-section-content p{
+
+     color: white;
+     
+}
+
+#top-section-content h3 {
+     color: white;
+     text-align: center;
+}
+.music-container{
+background-color: goldenrod;
+}
