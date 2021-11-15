@@ -32,3 +32,26 @@ array.forEach(function (element) {
      console.log(`element -  ${element}`);
  
    });
+
+
+   
+//document functions:======================================getElementById() 
+ // id attributegetElementByClassName()  
+// class attributegetElelemntByTagName("h1")
+ // by tag namequerySelector("#mydiv")
+  // referring by Id attributequeryAll("h1") 
+
+  function add() {
+
+     let x = window.document.getElementById("mydiv");
+
+     console.log(x);
+
+     // update the div with new text
+
+     // innerHTML is a DOM property
+
+     x.innerHTML = "Welcome message updated from JavaScript";
+
+   }
+

@@ -9,7 +9,33 @@
 </head>
 <body>
      <script src="jspractice.js">
-         
-     </script>
-</body>
+            
+
+<button onClick="newWindow()">Open a new window</button>
+
+
+
+  function newWindow() {
+
+    console.log("hi");
+
+    // manipulate DOM from JS
+
+    let URL = "https://www.dictionary.com/browse/hello";
+
+    window.open(URL, "", "width=500, height=600");
+
+    let win = window.open(URL, "", "width=500, height=600");
+
+
+setTimeout(() => {
+
+    win.close()
+
+}, 5000);
+
+
+  
+    
+     </body>
 </html>
