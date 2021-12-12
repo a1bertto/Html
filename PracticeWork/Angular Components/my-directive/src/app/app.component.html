@@ -1,0 +1,45 @@
+<header>
+  <mat-toolbar color="primary"> Mymessages</mat-toolbar>
+</header>
+<mat-form-field>
+  <textarea matInput rows="6" [(ngModel)]="enteredValue">
+  </textarea>
+</mat-form-field>
+
+<div class="container">
+
+
+
+
+  <div class="card" style="width: 18rem; border: 2px solid black">
+
+    <img [src]="employee.photo" width="200px" height="200px" />
+
+    <div class="card-body">
+
+      <h5 class="card-title">{{ title }}</h5>
+
+      <div class="card-text">
+
+        <ul>
+
+          <li>
+
+            {{ employee.empId }} - {{ employee.empName }} -
+
+            {{ employee.age }}
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <button class="btn btn-primary" (click)="UpdatePhoto()"> caption</button>
+
+    </div>
+
+  </div>
+
+</div>
+

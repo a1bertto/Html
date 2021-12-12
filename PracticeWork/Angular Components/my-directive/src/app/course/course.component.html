@@ -1,0 +1,51 @@
+<p>course works!</p>
+
+
+<br>
+enter email:
+
+<button (click)="onSave($event)">Save</button>
+<h1>Clicked Button caption {{ selectedButton }}</h1>
+<br />
+Enter Email:
+<input type="text" size="25" (keyup.enter)="onKeyUp($event)" />
+<p style="color: red">Email is {{ email }}</p>
+
+<h1 #x>Template Variable</h1>
+
+
+
+<button #y>MyButton</button>
+
+
+
+<div>
+
+  <p>{{ x }} - {{ x.innerHTML }}</p>
+
+  <p>{{ y }}</p>
+
+</div>
+
+
+
+Enter Text:
+
+<input type="text" size="25" value="This is a textbox" #mytext />
+
+<br />
+
+<br />
+
+<p>
+
+  Value in the textbox - {{ mytext.value }} <br />
+
+  Size of textbox - {{ mytext.size }}
+
+  <br />
+
+</p>
+
+
+
